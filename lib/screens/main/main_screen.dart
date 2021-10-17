@@ -14,6 +14,7 @@ class MainScreen extends StatelessWidget {
         child: Container(
           constraints: const BoxConstraints(maxWidth: maxWidth),
           child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(flex: 2, child: SideMenu()),
               SizedBox(width: defaultPadding / 2),
